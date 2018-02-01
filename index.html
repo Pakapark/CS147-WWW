@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Quest | CS 147 Project</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Animate CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+      <!-- Hotjar Tracking Code for http://web.stanford.edu/class/cs147/projects/local -->
+      <script>
+          (function(h,o,t,j,a,r){
+              h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+              h._hjSettings={hjid:678163,hjsv:6};
+              a=o.getElementsByTagName('head')[0];
+              r=o.createElement('script');r.async=1;
+              r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+              a.appendChild(r);
+          })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+      </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top" style="font-family: Quest">
+                  <span><img src="quest.png" alt="quest logo" width=30 height=30 style="margin-bottom: 5px;"> Quest</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li><a class="page-scroll" href="#services">About</a></li>
+                    <li><a class="page-scroll" href="#about">Video</a></li>
+                    <li><a class="page-scroll" href="#portfolio">Reports</a></li>
+                    <li><a class="page-scroll" href="#team">Team</a></li>
+                    <li><a class="page-scroll" href="#contact">Demo</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container animated fadeIn">
+            <div class="intro-text">
+                <div class="intro-lead-in animated fadeIn" id="welcome-text">Welcome to Quest</div>
+                <div class="intro-heading animated fadeIn" id="slogan">Find Your Passionate Community</div>
+                <a href="#services" class="btn btn-xl animated fadeIn" id="learn-more">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Quest</h2>
+                    <h3 class="section-subheading text-muted">Quest helps you engage in your local community with supreme pleasure experience</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x" style="color: #202225;"></i>
+                        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Find Your Favorite Local Clubs</h4>
+                    <p class="text-muted">Looking for New Activity or A Local Club? Simply select the recommended club in the main page or Search by choosing category you're interested. </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x" style="color: #202225;"></i>
+                        <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Tag Along to Events with Friends</h4>
+                    <p class="text-muted">Visit local clubs/events and clear the event quests with your best friends with one click on 'Tag Along' to an event.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x" style="color: #202225;"></i>
+                        <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Create Your Own Club</h4>
+                    <p class="text-muted">Want to have your own club and gather people with the similar interest? Just fill in the club detail and we will cover the rest!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Concept Video</h2>
+                    <h3 class="section-subheading text-muted">Download the video <a class="underline" href="docs/concept-video.mp4">here</a>.</h3>
+                </div>
+            </div>
+            <div class="row">
+	            	<center><iframe src="https://www.youtube.com/embed/Rq4fDa1HW0s" width="900" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading" style="">Reports & Presentations</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <!-- <a href="#portfolioModal1"> -->
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cip.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Contextual Inquiry</h4>
+                        <p class="text-muted">Initial Analysis and Video</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <!-- <a href="#portfolioModal2"> -->
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/lowfip.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Prototypes</h4>
+                        <p class="text-muted">Low-fi, Med-fi and Hi-fi Prototypes</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <!-- <a href="#portfolioModal3"> -->
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/medfip.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Poster</h4>
+                        <p class="text-muted">Poster and Presentastion Slides</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Meet the Team</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.png" class="img-responsive img-circle" alt="">
+                        <h4>Stephanie T.</h4>
+                        <p class="text-muted">Developer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.png" class="img-responsive img-circle" alt="">
+                        <h4>Pakapark B.</h4>
+                        <p class="text-muted">Developer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.png" class="img-responsive img-circle" alt="">
+                        <h4>Uzair I.</h4>
+                        <p class="text-muted">Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">MEDIUM-FI PROTOTYPE</h2>
+                     <h3 class="section-subheading text-muted">Please <a href="https://goo.gl/EoxpNH" class="underline">See Instruction</a> or <a href="https://goo.gl/DFhXbb" class="underline">Google Slide</a> for documentation.</h3>
+                    <iframe width="396" height="834" src="https://marvelapp.com/553a1eg?emb=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Quest 2017</span>
+                </div>
+                <div class="col-md-4">
+                                    </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li>CS 147
+                        </li>
+                        <li>Fall 2017
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Contextual Inquiry</h2>
+                        <p class="item-intro text-muted">Click <i>"PDF"</i> or <i>"MP4"</i> to download file</p>
+
+                        <strong><p class="modal-subtopic">Contextual Inquiry</p></strong>
+                        <p>Contextual Inquiry - Report (<a href="docs/contextual-inquiry.pdf">&nbsp;PDF&nbsp;</a>)</p>
+                        <p>Contextual Inquiry - Presentation (<a href="docs/contextual-inquiry-slide.pdf">&nbsp;PDF&nbsp;</a>)</p>
+
+                        <strong><p class="modal-subtopic">Concept Video</p></strong>
+                        <p>Concept Video - Presentation (<a href="docs/concept-video-slide">&nbsp;PDF&nbsp;</a>)</p>
+                        <p>Concept Video - Raw Video File (<a href="docs/concept-video.mp4">&nbsp;MP4&nbsp;</a>)</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Prototyping</h2>
+                        <p class="item-intro text-muted">Click <i>"PDF"</i> to download file</p>
+
+                        <strong><p class="modal-subtopic">Low-Fi Prototype</p></strong>
+                        <p>Low-Fi Prototype - Report (<a href="docs/lowfi-prototype.pdf">&nbsp;PDF&nbsp;</a>)</p>
+                        <p>Low-Fi Prototype - Presentation (<a href="docs/lowfi-prototype-slide.pdf">&nbsp;PDF&nbsp;</a>)</p>
+                        <strong><p class="modal-subtopic">Medium-Fi Prototype</p></strong>
+                        <p>Medium-Fi Prototype - Readme (<a href="docs/mediumfi-readme.pdf">&nbsp;PDF&nbsp;</a>)</p>
+                        <p>Medium-Fi Prototype - Presentation (<a href="docs/mediumfi-prototype-slide.pdf">&nbsp;PDF&nbsp;</a>)</p>
+                        <p>Medium-Fi Prototype - Heuristic Evaluation (<a href="docs/mediumfi-he.pdf">&nbsp;PDF&nbsp;</a>)</p>
+
+                        <strong><p class="modal-subtopic">Hi-Fi Prototype</p></strong>
+                        <p>Hi-Fi Prototype - Report (<a href="docs/final-report.pdf">&nbsp;PDF&nbsp;</a>)</p>
+                        <p>Hi-Fi Prototype - Midway Milestone Presentation (<a href="docs/midway-presentation.pdf">&nbsp;PDF&nbsp;</a>)</p>
+                        <p>Hi-Fi Prototype - Read-Me (<a href="docs/demo-readme.pdf">&nbsp;PDF&nbsp;</a>)</p>
+                        <p>Hi-Fi Prototype - IPA File (<a href="docs/demo.ipa"> IPA File </a>)</p>
+
+                        <!-- <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+
+                        <h2>Poster</h2>
+                        <!-- <p class="item-intro text-muted">Click <i>"PDF"</i> to download file</p> -->
+			<p class="item-intro text-muted">Click <i>"PDF"</i> to download file</p>
+                        <strong><p class="modal-subtopic">Final Poster</p></strong>
+                        <p>Poster - Final (<a href="docs/poster.pdf">PDF</a>)</p>
+                        <strong><p class="modal-subtopic">Pitch Slide</p></strong>
+                        <p>Pitch Slide - Final (<a href="docs/slide.pdf">PDF</a>)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/agency.js"></script>
+
+</html>
